@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DGLEN	dgcliloop1.c	4;"	d	file:
+DGLEN	dgcliloop3.c	7;"	d	file:
+MAXLINE	dgclibig.c	3;"	d	file:
+MAXLINE	dgclibig.c	4;"	d	file:
+NDG	dgcliloop1.c	3;"	d	file:
+NDG	dgcliloop3.c	6;"	d	file:
+PROGS	Makefile	/^PROGS =	udpcli01 udpserv01 udpcli02 udpcli03 udpcli04 \\$/;"	m
+SERV_PORT	udpserv07.c	2;"	d	file:
+SERV_PORT	udpserv07.c	3;"	d	file:
+count	dgecholoop1.c	/^static int	count;$/;"	v	file:
+count	dgecholoop2.c	/^static int	count;$/;"	v	file:
+dg_cli	dgcliaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_cli	dgclibig.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_cli	dgcliconnect.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_cli	dgcliinetaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_cli	dgcliloop1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_cli	dgcliloop3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f	signature:(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)
+dg_echo	dgecholoop1.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f	signature:(int sockfd, SA *pcliaddr, socklen_t clilen)
+dg_echo	dgecholoop2.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f	signature:(int sockfd, SA *pcliaddr, socklen_t clilen)
+int_fast16_t	udpserv07.c	/^typedef   signed           int int_fast16_t;$/;"	t	file:
+int_fast32_t	udpserv07.c	/^typedef   signed           int int_fast32_t;$/;"	t	file:
+int_fast8_t	udpserv07.c	/^typedef   signed           int int_fast8_t;$/;"	t	file:
+length_len	udpserv07.c	/^  u8_t  length_len; \/* indicates how many bytes are required to encode the 'value_len' field *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+main	udpcli01.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli02.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli03.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli04.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli05.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli06.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli08.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli09.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpcli10.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpserv01.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpserv06.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpserv07.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	udpservselect01.c	/^main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+recvfrom_int	dgecholoop1.c	/^recvfrom_int(int signo)$/;"	f	file:	signature:(int signo)
+recvfrom_int	dgecholoop1.c	/^static void	recvfrom_int(int);$/;"	p	file:	signature:(int)
+recvfrom_int	dgecholoop2.c	/^recvfrom_int(int signo)$/;"	f	file:	signature:(int signo)
+recvfrom_int	dgecholoop2.c	/^static void	recvfrom_int(int);$/;"	p	file:	signature:(int)
+s16_t	udpserv07.c	/^typedef int16_t   s16_t;$/;"	t	file:
+s32_t	udpserv07.c	/^typedef int32_t   s32_t;$/;"	t	file:
+s8_t	udpserv07.c	/^typedef int8_t    s8_t;$/;"	t	file:
+sig_chld	sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f	signature:(int signo)
+snmp_asn1_tlv	udpserv07.c	/^struct snmp_asn1_tlv$/;"	s	file:
+snmp_asn1_tlv::length_len	udpserv07.c	/^  u8_t  length_len; \/* indicates how many bytes are required to encode the 'value_len' field *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+snmp_asn1_tlv::type	udpserv07.c	/^  u8_t  type;       \/* only U8 because extended types are not specified by SNMP *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+snmp_asn1_tlv::type_len	udpserv07.c	/^  u8_t  type_len;   \/* encoded length of 'type' field (normally 1) *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+snmp_asn1_tlv::value_len	udpserv07.c	/^  u16_t value_len;  \/* encoded length of the value *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+type	udpserv07.c	/^  u8_t  type;       \/* only U8 because extended types are not specified by SNMP *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+type_len	udpserv07.c	/^  u8_t  type_len;   \/* encoded length of 'type' field (normally 1) *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
+u16_t	udpserv07.c	/^typedef uint16_t  u16_t;$/;"	t	file:
+u32_t	udpserv07.c	/^typedef uint32_t  u32_t;$/;"	t	file:
+u8_t	udpserv07.c	/^typedef uint8_t   u8_t;$/;"	t	file:
+value_len	udpserv07.c	/^  u16_t value_len;  \/* encoded length of the value *\/$/;"	m	struct:snmp_asn1_tlv	file:	access:public
